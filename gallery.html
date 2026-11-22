@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Галерея — Ресторан «Іква» у Кременці</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+    <header class="site-header">
+        <div class="container header-container">
+            <a href="index.html" class="logo">
+                <span class="logo-icon">🍽️</span>
+                <span class="logo-text">Ресторан «Іква»</span>
+            </a>
+            <nav class="main-nav" id="mainNav">
+                <ul class="nav-list">
+                    <li><a href="index.html" class="nav-link" data-i18n="nav_home">Головна</a></li>
+                    <li><a href="about.html" class="nav-link" data-i18n="nav_about">Про нас</a></li>
+                    <li><a href="services.html" class="nav-link" data-i18n="nav_services">Послуги</a></li>
+                    <li><a href="gallery.html" class="nav-link active" data-i18n="nav_gallery">Галерея</a></li>
+                    <li><a href="contacts.html" class="nav-link" data-i18n="nav_contacts">Контакти</a></li>
+                </ul>
+            </nav>
+            <div class="header-actions">
+                <div class="lang-switcher">
+                    <button class="lang-btn active" data-lang="uk">UA</button>
+                    <button class="lang-btn" data-lang="ru">RU</button>
+                    <button class="lang-btn" data-lang="en">EN</button>
+                </div>
+                <button class="mobile-menu-toggle" id="mobileToggle" aria-label="Мобільне меню">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="page-header">
+            <div class="container">
+                <h1 class="page-title" data-i18n="gallery_page_title">Фотогалерея</h1>
+                <p class="page-subtitle" data-i18n="gallery_page_subtitle">Атмосфера та інтер'єр ресторану «Іква» у Кременці</p>
+            </div>
+        </section>
+
+        <section class="section">
+            <div class="container">
+                <div class="gallery-grid">
+                    <div class="gallery-item">
+                        <div class="gallery-placeholder">
+                            <span class="gallery-icon">🍽️</span>
+                            <h3 data-i18n="gal_item_1">Затишна зала ресторану «Іква»</h3>
+                            <p data-i18n="gal_desc_1">Місце для вашого комфортного відпочинку</p>
+                        </div>
+                    </div>
+                    <div class="gallery-item">
+                        <div class="gallery-placeholder">
+                            <span class="gallery-icon">🎉</span>
+                            <h3 data-i18n="gal_item_2">Банкетне обслуговування</h3>
+                            <p data-i18n="gal_desc_2">До 130–150 осіб для урочистих подій</p>
+                        </div>
+                    </div>
+                    <div class="gallery-item">
+                        <div class="gallery-placeholder">
+                            <span class="gallery-icon">🥗</span>
+                            <h3 data-i18n="gal_item_3">Смачні страви</h3>
+                            <p data-i18n="gal_desc_3">Українська та європейська кухня</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer-container">
+            <div class="footer-col">
+                <div class="logo">
+                    <span class="logo-icon">🍽️</span>
+                    <span class="logo-text">Ресторан «Іква»</span>
+                </div>
+                <p data-i18n="footer_desc">Затишний ресторан у Кременці для вашого відпочинку та урочистих подій.</p>
+            </div>
+            <div class="footer-col">
+                <h4 data-i18n="footer_nav_title">Навігація</h4>
+                <ul>
+                    <li><a href="index.html" data-i18n="nav_home">Головна</a></li>
+                    <li><a href="about.html" data-i18n="nav_about">Про нас</a></li>
+                    <li><a href="services.html" data-i18n="nav_services">Послуги</a></li>
+                    <li><a href="gallery.html" data-i18n="nav_gallery">Галерея</a></li>
+                    <li><a href="contacts.html" data-i18n="nav_contacts">Контакти</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4 data-i18n="footer_contacts_title">Контакти</h4>
+                <p>вул. Шевченка, 75, Кременець, Тернопільська область, 47000</p>
+                <p><a href="tel:+380938176006">+38 (093) 817-60-06</a></p>
+                <p data-i18n="hours_text_full">Пн-Нд: 10:00 - 23:00</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <p>&copy; 2024 Ресторан «Іква» (Кременець). <span data-i18n="rights">Усі права захищені.</span></p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="assets/script.js"></script>
+</body>
+</html>
